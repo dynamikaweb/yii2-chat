@@ -1,0 +1,36 @@
+{
+    "name": "dynamikaweb/yii2-chat",
+    "description": "Web chat widget list view",
+    "type": "yii2-extension",
+    "keywords": [
+        "dynamika",
+        "yii",
+        "yii2",
+        "yii 2",
+        "chat",
+        "widget"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Rodrigo Dornelles",
+            "email": "rodrigo@dynamika.com.br",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "http://github.com/dynamikaweb/yii2-chat/issues",
+        "source": "http://github.com/dynamikaweb/yii2-chat"
+    },
+    "require": {
+        "php": ">=5.5.0",
+        "yiisoft/yii2": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": false,
+    "autoload": {
+        "psr-4": {
+            "dynamikaweb\\chat\\": "src"
+        }
+    }
+}

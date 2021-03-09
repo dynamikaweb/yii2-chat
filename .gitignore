@@ -1,0 +1,9 @@
+# composer package patch
+vendor/
+composer.lock
+
+# Windows Files
+Thumbs.db
+
+# OSX
+.DS_Store

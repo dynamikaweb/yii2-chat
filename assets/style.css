@@ -1,0 +1,44 @@
+.dynamika-chat {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dynamika-chat a {
+    display: inline-block;
+    margin-top: -16px;
+    text-decoration: none;
+    color: black;
+}
+
+.dynamika-chat span {
+    margin: 16px 8;
+    border-radius: 32px;
+    display: inline-block;
+}
+
+.dynamika-chat p {
+    text-align: justify;
+    padding-bottom: 8px;
+    padding: 16px;
+}
+
+.dynamika-chat-right {
+    background-color: rgba(174, 213, 7, .75);
+    margin-left: 25% !important;
+    border-top-right-radius: 0px !important;
+}
+
+.dynamika-chat-left {
+    background-color: rgba(128,128,128, 0.75);
+    margin-right: 25% !important;
+    border-top-left-radius: 0px !important;
+}
+
+.dynamika-chat-right a {
+    float: right;
+}
+
+.dynamika-chat-left a {
+    float: left;
+}
