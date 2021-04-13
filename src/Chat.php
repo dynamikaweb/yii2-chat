@@ -43,7 +43,8 @@ class Chat extends BaseListView
             '{{key}}' => Inflector::slug("{$receive->title}-{$key}"),
             '{{sign}}' => $receive->right? 'right': 'left',
             '{{message}}' => $receive->message,
-            '{{title}}' => $receive->title
+            '{{title}}' => $receive->title,
+            '{{attachment}}' => '<strong>Anexos:</strong> <br/>'.$receive->attachment,
         ]);
     }
 }
