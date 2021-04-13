@@ -4,7 +4,7 @@
     flex-direction: column;
 }
 
-.dynamika-chat a {
+.dynamika-chat .time {
     display: inline-block;
     margin-top: -16px;
     text-decoration: none;
@@ -35,10 +35,10 @@
     border-top-left-radius: 0px !important;
 }
 
-.dynamika-chat-right a {
+.dynamika-chat-right .time {
     float: right;
 }
 
-.dynamika-chat-left a {
+.dynamika-chat-left .time {
     float: left;
 }
