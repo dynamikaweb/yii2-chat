@@ -44,7 +44,7 @@ class Chat extends BaseListView
             '{{sign}}' => $receive->right? 'right': 'left',
             '{{message}}' => $receive->message,
             '{{title}}' => $receive->title,
-            '{{attachment}}' => '<strong>Anexos:</strong> <br/>'.$receive->attachment,
+            '{{attachment}}' => $receive->attachment ? "<strong>Anexos:</strong><br/>{$receive->attachment}" : '',
         ]);
     }
 }
